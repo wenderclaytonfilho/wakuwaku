@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+    <title>Animes Wendy</title>
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <img src="assets/logo-tonikawa.png" width="112" height="28">
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item">
+                    Home
+                </a>
+                <a class="navbar-item">
+                    Sobre
+                </a>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary">
+                            <strong>Sign up</strong>
+                        </a>
+                        <a class="button is-light">
+                            Log in
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Conteúdo-->
+    <div class="columns" id="colunas">
+        <div class="column is-one-third">
+            <section class="section">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="assets/logo-tonikawa.png" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-48x48">
+                                    <img src="assets/icon.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">Tonikaku Kawaii</p>
+                                <p class="subtitle is-6">Fly me to the moon</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>Formato: anime</p>
+                            <p>Autor: Tsukasa Yuzaki</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="column">
+            <section class="section">
+                <div class="card">
+                    <div class="card-header">
+                        <p class="card-header-title">
+                            Episódios
+                        </p>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <a target="_blank" href="player.html"><span class="tag is-link">Episódio 8</span></a>
+                            <a><span class="tag is-link">Episódio 9</span></a>
+                            <a><span class="tag is-link">Episódio 10</span></a>
+                            <a><span class="tag is-link">Episódio 11</span></a>
+                            <a> <span class="tag is-link">Episódio 12</span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+<script src="script/navbar.js"></script>
+
+</html>
