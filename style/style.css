@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body{
+
+}
+
+header{
+    height: 60px    ;
+}
+
+header h1{
+    font-size:50px;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+iframe{
+    width: 100vw;
+    height: 56.2vw;
+    max-height: 100vh;
+    max-width: 177.78vh;
+    margin: auto;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+
+}
