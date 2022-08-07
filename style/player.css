@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+h1{
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+div.titulo{
+	text-align: center;
+	padding: 5px;
+}
+
+div.player{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding: 5px;
+}

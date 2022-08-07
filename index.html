@@ -6,15 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="style/player.css">
     <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
     <title>Tonikawa - Bia</title>
 </head>
 
 <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <header>
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="index.html">
-                <img src="assets/logo-tonikawa.png" width="112" height="28">
+                <span class="tag is-success">Olá Srta. Bia!</span>
             </a>
 
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
@@ -38,7 +40,7 @@
             <div class="navbar-end">
                 <div class="navbar-item">
                     <div class="buttons">
-                        <a class="button is-link">
+                        <a class="button is-primary">
                             <strong>Sign up</strong>
                         </a>
                         <a class="button is-light">
@@ -49,6 +51,7 @@
             </div>
         </div>
     </nav>
+    </header>
     <!--Conteúdo-->
     <div class="columns" id="colunas">
         <div class="column is-one-third">
@@ -72,8 +75,7 @@
                             </div>
                         </div>
                         <div class="content">
-                            <p>Formato: anime</p>
-                            <p>Autor: Tsukasa Yuzaki</p>
+                            <p><span class="tag is-success">Episódios 8 e 9 já disponíveis!</span></p>
                         </div>
                     </div>
                 </div>
@@ -89,20 +91,25 @@
                     </div>
                     <div class="card-content">
                         <div class="content">
-                            <a target="_blank" href="player.html"><span class="tag is-link">Episódio 8</span></a>
-                            <a><span class="tag is-link">Episódio 9</span></a>
+                            <a id="ep8"><span class="tag is-link">Episódio 8</span></a>
+                            <a id="ep9"><span class="tag is-link">Episódio 9</span></a>
                             <a><span class="tag is-link">Episódio 10</span></a>
                             <a><span class="tag is-link">Episódio 11</span></a>
                             <a> <span class="tag is-link">Episódio 12</span></a>
-                            <hr>
-                            <span class="tag is-black">O episódio vai abrir em uma nova aba.</span>
                         </div>
                     </div>
                 </div>
             </section>
+            <div class="titulo">
+                <h1>O episódio vai carregar abaixo :3</h1>
+            </div>
+                <div class="player" id="player">
+                    
+                </div>
         </div>
     </div>
 </body>
 <script src="script/navbar.js"></script>
+<script src="script/redirect.js"></script>
 
 </html>
