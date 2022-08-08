@@ -1,0 +1,18 @@
+div.titulos{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	background-color: #363636;
+}
+
+.titulos h1{
+	font-size: 30px;
+	font-weight: bolder;
+	color: white;
+}
+
+img{
+	width: 200px;
+	height: 350px;
+}
+

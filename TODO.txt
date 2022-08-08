@@ -1,7 +1,5 @@
-TODO
+TODO-
 
--Player.html ficou obsoleto - remover ou adaptar;
--Alterar tamanho do Iframe;
--Modo noturno e modo Claro;
--Navegação entre as páginas;
--Melhorar função de mudança de episódios;
+-Mudar o array episodes para um dict;
+-Consertar tamanho do iframe;
+-criar função dinâmica de mudança de episódios.

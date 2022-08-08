@@ -1,22 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <link rel="stylesheet" type="text/css" href="style/player.css">
-    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
-    <title>Tonikawa - Bia</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+	<title>Waku Waku | Home</title>
 </head>
-
 <body>
-    <header>
+	<header>
     <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="index.html">
-                <span class="tag is-success">Olá Srta. Bia!</span>
+                <span class="tag is-success">Olá Usuário!</span>
             </a>
 
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
@@ -30,7 +28,7 @@
         <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-start">
                 <a class="navbar-item">
-                    Home
+                    Categorias
                 </a>
                 <a class="navbar-item">
                     Sobre
@@ -52,64 +50,42 @@
         </div>
     </nav>
     </header>
-    <!--Conteúdo-->
-    <div class="columns" id="colunas">
-        <div class="column is-one-third">
-            <section class="section">
-                <div class="card">
-                    <div class="card-image">
-                        <figure class="image">
-                            <img src="assets/logo-tonikawa.png" alt="Placeholder image">
-                        </figure>
-                    </div>
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-left">
-                                <figure class="image is-48x48">
-                                    <img src="assets/icon.png" alt="Placeholder image">
-                                </figure>
-                            </div>
-                            <div class="media-content">
-                                <p class="title is-4">Tonikaku Kawaii</p>
-                                <p class="subtitle is-6">Fly me to the moon</p>
-                            </div>
-                        </div>
-                        <div class="content">
-                            <p><span class="tag is-success">Episódios 8 e 9 já disponíveis!</span></p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div class="column">
-            <section class="section">
-                <div class="card">
-                    <div class="card-header">
-                        <p class="card-header-title">
-                            Episódios
-                        </p>
-                    </div>
-                    <div class="card-content">
-                        <div class="content">
-                            <a id="ep8"><span class="tag is-link">Episódio 8</span></a>
-                            <a id="ep9"><span class="tag is-link">Episódio 9</span></a>
-                            <a><span class="tag is-link">Episódio 10</span></a>
-                            <a><span class="tag is-link">Episódio 11</span></a>
-                            <a> <span class="tag is-link">Episódio 12</span></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <div class="titulo">
-                <h1>O episódio vai carregar abaixo :3</h1>
-            </div>
-                <div class="player" id="player">
-                    
-                </div>
-        </div>
-    </div>
-</body>
-<script src="script/navbar.js"></script>
-<script src="script/redirect.js"></script>
 
+    <!--banner-->
+    <div class="banner">
+    	<figure class="image is-3by1">
+    		<img src="assets/banner.jpg">
+    	</figure>
+    </div>
+
+    <!--animes-->
+    <div class="titulos">
+    	<h1>Animes disponíveis!</h1>
+    </div>
+    <section class="section">
+	    <div class="container">
+	   		<div class="columns">
+	   			<div class="column">
+	   				<h1>Tonikaku Kawaii!</h1>
+	   				<a href="navigation/tonikawa.html">
+	   				<img class="covers" src="assets/covers/tonikawa.jpg">
+	   				</a>
+	   			</div>
+	   			<div class="column">
+	   				<h1>Boruto! Naruto next Generation</h1>
+	   					<img src="assets/covers/boruto.jfif">
+	   			</div>
+	   			<div class="column">
+	   				<h1>Chihiro no Sen</h1>
+	   				<img src="assets/covers/chihiro.jpg">
+	   			</div>
+	   			<div class="column">
+	   				<h1>Kimi no na wa?</h1>
+	   				<img src="assets/covers/yourname.jpg">
+	   			</div>
+	   		</div> 	
+	    </div>
+    </section>
+</body>
+<script src="scripts/navbar.js"></script>
 </html>
