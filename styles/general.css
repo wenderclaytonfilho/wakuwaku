@@ -1,0 +1,66 @@
+html{
+	background-color:#363636;
+}
+
+body{
+	background-color:#363636;
+}
+
+div.titulos{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	background-color: #3D4392;
+}
+
+.titulos h1{
+	font-size: 40px;
+	font-weight: bolder;
+	color: white;
+}
+
+.column h1{
+	color: white;
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar{
+	width: 10px;
+}
+
+
+::-webkit-scrollbar-thumb{
+	width: 10px;
+	border-radius: 5px;
+	background-color: #485FC7;
+}
+
+.navbar-brand{
+	background-color: #3D4392;
+}
+
+.navbar-item{
+	background-color: #3D4392;
+	color: white;
+}
+
+.navbar-menu{
+	background-color: #3D4392;
+}
+
+.card-content{
+	background-color: #3D4392;
+}
+
+.title{
+	color: #FFFFFF;
+}
+
+.subtitle{
+	color: #FFFFFF;
+}
+
+.card-header-title{
+	background-color: #363636;
+	color: #FFFFFF;
+}

@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/slider.css">
+    <link rel="stylesheet" type="text/css" href="styles/general.css">
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
 	<title>Waku Waku | Home</title>
 </head>
@@ -14,7 +16,7 @@
     <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="index.html">
-                <span class="tag is-success">Olá Usuário!</span>
+                <span class="tag is-link">Olá Usuário!</span>
             </a>
 
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
@@ -38,7 +40,7 @@
             <div class="navbar-end">
                 <div class="navbar-item">
                     <div class="buttons">
-                        <a class="button is-primary">
+                        <a class="button is-link">
                             <strong>Sign up</strong>
                         </a>
                         <a class="button is-light">
@@ -51,11 +53,33 @@
     </nav>
     </header>
 
-    <!--banner-->
+
+    <!--banner
     <div class="banner">
     	<figure class="image is-3by1">
-    		<img src="assets/banner.jpg">
+    		<img src="assets/banners/banner.jpg">
     	</figure>
+    </div>
+    -->
+
+    <!-- Slide section -->
+    <div class="slides-box">
+ 
+        <div class="slider">
+            <div class="slides">
+                <div class="slide first" id="first">
+                    <img src="./image/AOT banner.jpg" alt="">
+                </div>
+                <div class="slide second">
+                   <img src="./image/fate long banner.png" alt="">
+                </div>
+                <div class="slide third">
+                   <img src="./image/naruto banner.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+ 
     </div>
 
     <!--animes-->
@@ -66,11 +90,22 @@
 	    <div class="container">
 	   		<div class="columns">
 	   			<div class="column">
-	   				<h1>Tonikaku Kawaii!</h1>
 	   				<a href="navigation/tonikawa.html">
 	   				<img class="covers" src="assets/covers/tonikawa.jpg">
 	   				</a>
 	   			</div>
+                <div class="column">
+                    <a href="navigation/kimi-no-na-wa.html">
+                        <img src="assets/covers/yourname.jpg">
+                    </a>
+                </div>
+	   			<div class="column">
+	   					<img src="assets/covers/boruto.jfif">
+	   			</div>
+	   			<div class="column">
+	   				<img src="assets/covers/chihiro.jpg">
+	   			</div>
+
 	   		</div> 	
 	    </div>
     </section>

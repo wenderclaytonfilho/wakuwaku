@@ -1,16 +1,28 @@
+body{
+	background-color:#363636;
+}
+
 div.titulos{
 	display: flex;
 	justify-content: center;
 	text-align: center;
-	background-color: #363636;
+	background-color: #3D4392;
 }
 
 .titulos h1{
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: bolder;
 	color: white;
 }
 
+.column h1{
+	color: white;
+}
+
+.slider img {
+	width: 200px;
+	height: 350px;
+}
 img{
 	width: 200px;
 	height: 350px;
