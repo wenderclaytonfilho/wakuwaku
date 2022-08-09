@@ -1,5 +1,5 @@
 ﻿TODO-
 
--Mudar o array episodes para um dict;
--Consertar tamanho do iframe;
+-Mudar o array episodes para um dict;  -> Ok!
+
 -criar função dinâmica de mudança de episódios.

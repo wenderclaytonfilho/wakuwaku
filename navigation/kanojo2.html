@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="../styles/player.css">
+    <link rel="stylesheet" type="text/css" href="../styles/general.css">
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+	<title>Waku Waku | Kanojo Okarishimasu!</title>
+</head>
+<body>
+	 <header>
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="../index.html">
+                <span class="tag is-link">Olá Usuário!</span>
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="../index.html">
+                    Home
+                </a>
+                <a class="navbar-item">
+                    Sobre
+                </a>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-link">
+                            <strong>Sign up</strong>
+                        </a>
+                        <a class="button is-light">
+                            Log in
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </header>
+    <!--Content-->
+
+    <div class="columns" id="colunas">
+        <div class="column is-one-third">
+            <section class="section">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="../assets/banners/kanojo2ndseason.jpg" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-48x48">
+                                    <img src="../assets/icon/kanojo-icon.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">Kanojo Okarishimasu! - 2nd Season</p>
+                                <p class="subtitle is-6">Rent a Girlfriend! - 2nd Season</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p><span class="tag is-success">Episódio 1 disponível!</span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="column">
+            <section class="section">
+                <div class="card">
+                    <div class="card-header">
+                        <p class="card-header-title">
+                            Episódios
+                        </p>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <a onclick="redirect('kanojo',1)"><span class="tag is-success">Episódio 1</span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="titulo">
+                <h1>O seu episódio vai carregar abaixo :3</h1>
+            </div>
+                <div class="player" id="player">
+                    <img src="../assets/banners/kanojo2ndseason.jpg">
+                </div>
+        </div>
+    </div>
+</body>
+<script src="../scripts/redirect.js"></script>
+<script src="../scripts/navbar.js"></script>
+</html>

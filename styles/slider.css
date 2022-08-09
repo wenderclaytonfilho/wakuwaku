@@ -12,18 +12,18 @@
 
 .slider{
   width: 300px;
-  height: 260px;
+  height: 200px;
   border-radius: 4px;
   overflow: hidden;
 }
 
     .slide img{
         width: 300px;
-        height: 100px;
+        height: 150px;
     }
     .slider{
         width: 360px;
-        height: 260px;
+        height: 150px;
 
     }
     .slides{
@@ -50,7 +50,7 @@
 
 .slide img{
         width: 360px;
-        height: 260px;
+        height: 150px;
 }
 
 .first{
@@ -114,8 +114,8 @@
 }
 
 .slider{
-  width: 1134px;
-  height: 500px;
+  width: 1434px;
+  height: 300px;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -138,8 +138,8 @@
 }
 
 .slide img{
-  width: 1245px;
-  height: 500px;
+  width: 1445px;
+  height: 300px;
 }
 
 .first{

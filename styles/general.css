@@ -1,5 +1,7 @@
 html{
 	background-color:#363636;
+	width: 100vw;
+	height: 100vh;
 }
 
 body{
@@ -21,6 +23,11 @@ div.titulos{
 
 .column h1{
 	color: white;
+}
+
+
+.content{
+	padding: 10px;
 }
 
 /*Scrollbar*/
@@ -63,4 +70,18 @@ div.titulos{
 .card-header-title{
 	background-color: #363636;
 	color: #FFFFFF;
+}
+
+
+@media (max-width: 400px){
+img{
+	width: 150px;
+	height: 180px;
+}
+
+.content .column{
+	display: flex;
+	justify-content: center;
+}
+
 }
