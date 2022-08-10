@@ -92,15 +92,15 @@
                     </div>
                     <div class="card-content">
                         <div class="content">
-                            <a onclick="redirect(0)"><span class="tag is-link">Episódio 1</span></a>
-                            <a onclick="redirect(1)"><span class="tag is-link">Episódio 2</span></a>
-                            <a onclick="redirect(2)"><span class="tag is-link">Episódio 3</span></a>
-                            <a onclick="redirect(3)"><span class="tag is-link">Episódio 4</span></a>
-                            <a onclick="redirect(4)"><span class="tag is-link">Episódio 5</span></a>
-                            <a onclick="redirect(5)"><span class="tag is-link">Episódio 6</span></a>
-                            <a onclick="redirect(6)"><span class="tag is-link">Episódio 7</span></a>
-                            <a onclick="redirect(7)"><span class="tag is-link">Episódio 8</span></a>
-                            <a onclick="redirect(8)"><span class="tag is-link">Episódio 9</span></a>
+                            <a onclick="redirect('tonikawa',0)"><span class="tag is-link">Episódio 1</span></a>
+                            <a onclick="redirect('tonikawa',1)"><span class="tag is-link">Episódio 2</span></a>
+                            <a onclick="redirect('tonikawa',2)"><span class="tag is-link">Episódio 3</span></a>
+                            <a onclick="redirect('tonikawa',3)"><span class="tag is-link">Episódio 4</span></a>
+                            <a onclick="redirect('tonikawa',4)"><span class="tag is-link">Episódio 5</span></a>
+                            <a onclick="redirect('tonikawa',5)"><span class="tag is-link">Episódio 6</span></a>
+                            <a onclick="redirect('tonikawa',6)"><span class="tag is-link">Episódio 7</span></a>
+                            <a onclick="redirect('tonikawa',7)"><span class="tag is-link">Episódio 8</span></a>
+                            <a onclick="redirect('tonikawa',8)"><span class="tag is-link">Episódio 9</span></a>
                             <a onclick="unavailable()"><span class="tag is-danger">Episódio 10</span></a>
                             <a onclick="unavailable()"><span class="tag is-danger">Episódio 11</span></a>
                             <a onclick="unavailable()"><span class="tag is-danger">Episódio 12</span></a>
@@ -112,13 +112,14 @@
                 <h1>O seu episódio vai carregar abaixo :3</h1>
             </div>
                 <div class="player" id="player">
-                    <img src="../assets/tonikawa-banner.png">
+                   <!-- <img src="../assets/tonikawa-banner.png">-->
+                    <iframe width="600" height="370" src="https://www.youtube.com/embed/TMjB8Fn4pwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
         </div>
     </div>
 </body>
 <script src="../scripts/navbar.js"></script>
-<!--<script src="../scripts/redirect.js"></script>-->
-<script src ="../scripts/tonikawa.js"></script>
+<script src="../scripts/redirect.js"></script>
+<!--<script src ="../scripts/tonikawa.js"></script>-->
 
 </html>

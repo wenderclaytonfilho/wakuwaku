@@ -8,6 +8,12 @@ body{
 	background-color:#363636;
 }
 
+a img{
+	width: 350px;
+	height: 480px;
+}
+
+
 div.titulos{
 	display: flex;
 	justify-content: center;
@@ -27,7 +33,7 @@ div.titulos{
 
 
 .content{
-	padding: 10px;
+	padding: 20px;
 }
 
 /*Scrollbar*/
@@ -74,7 +80,7 @@ div.titulos{
 
 
 @media (max-width: 400px){
-img{
+a img{
 	width: 150px;
 	height: 180px;
 }
@@ -83,5 +89,19 @@ img{
 	display: flex;
 	justify-content: center;
 }
+
+}
+
+
+@media (max-width: 800px){
+	a img{
+	width: 300px;
+	height: 350px;
+	}
+
+	.content .column{
+		display: flex;
+		flex-direction: row;
+	}
 
 }
