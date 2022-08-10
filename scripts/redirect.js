@@ -40,9 +40,18 @@ var animes = [
 
 var player = document.getElementById("player");
 
-function unavailable(){
-    window.alert("Episódio indisponível!");
+function unavailable(option){
+    switch (option) {
+        case 'funcionalidade':
+            window.alert('Funcionalidade em desenvolvimento!')
+            break;
+        case 'episode':
+            window.alert("Episódio indisponível!");
+            break;
+    }
+    
 }
+
 
 
 //Updated redirect function
