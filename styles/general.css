@@ -1,3 +1,7 @@
+*{
+	text-decoration: none;
+}
+
 html{
 	background-color:#363636;
 	width: 100vw;
@@ -11,6 +15,10 @@ body{
 a img{
 	width: 350px;
 	height: 480px;
+}
+
+a p{
+	color: white;
 }
 
 
