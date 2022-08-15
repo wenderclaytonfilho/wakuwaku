@@ -1,4 +1,3 @@
-
 # Waku Waku - O seu site de animes!
 
 Olá! esse é um dos meus primeiros projetos que decidi fazer como desenvolvedor web! 
