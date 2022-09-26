@@ -75,7 +75,6 @@ function redirect(anime,episode){
         case 'tonikawa':
             switch(episode){
                 case 0: 
-                    window.alert("Tonikawa");
                     player.innerHTML = animes[1]['episodes'][0];
                     break;
                 case 1:
