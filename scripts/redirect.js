@@ -40,6 +40,16 @@ var animes = [
         `<iframe src="https://drive.google.com/file/d/1GudoaVPLFu8W-r1QldLphjZkcJYWr3Mn/preview" width="360" height="280" allow="autoplay" allowfullscreen></iframe>`
         ]
 
+    },
+   
+    {
+        nome: 'Suzume no tojimari',
+        link: '../navigation/suzume.html',
+        diretor:'Makoto Shinkai',
+        cover: '../assets/covers/suzume.jpg',
+        episodes:[
+            `<iframe src="https://drive.google.com/file/d/1GudoaVPLFu8W-r1QldLphjZkcJYWr3Mn/preview" width="360" height="280" allow="autoplay" allowfullscreen></iframe>`
+        ]
     }
 ];
 
@@ -120,5 +130,12 @@ function redirect(anime,episode){
                     break;
             }
         break;
+
+        case 'suzume':
+            switch(episode){
+                case 0:
+                    player.innerHTML = animes[3]['episodes'][0];
+                    break
+            }
     }
 }
