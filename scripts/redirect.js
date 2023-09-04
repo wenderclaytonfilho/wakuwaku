@@ -48,7 +48,7 @@ var animes = [
         diretor:'Makoto Shinkai',
         cover: '../assets/covers/suzume.jpg',
         episodes:[
-            `<iframe src="https://drive.google.com/file/d/1GudoaVPLFu8W-r1QldLphjZkcJYWr3Mn/preview" width="360" height="280" allow="autoplay" allowfullscreen></iframe>`
+            `<iframe src="https://drive.google.com/file/d/1rIOH9IhIZ7HC83SEtdUq3zARTsGOa8-H/preview" width="360" height="280" allow="autoplay" allowfullscreen></iframe>`
         ]
     }
 ];
